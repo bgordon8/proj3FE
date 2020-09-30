@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Google Map</title>
+    <style>
+        #map {
+            height: 800px;
+            width: 100%;
+        }
+
+        body {
+            background-image: url(pics/banner-fall.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <title>My Google Map</title>
+    <section id="container">
+
+        <div id="map"></div>
+        <h1 id="hole" style="text-align:center;"></h1>
+        <h2 id="tee-to-green" style="text-align: center;"></h2>
+        <h2 id="mid-point" style="text-align: center;"></h2>
+        <h2 id="green-to-mid-point" style="text-align: center;"></h2>
+    </section>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1a20KRSnWUDSFo_sv_bnadjxxO3O8vvo&callback=initMap"
+        type="text/javascript">
+        </script>
+
+    <script src="Meadow_Hills_Holes/hole1.js" type="text/javascript"></script>
+</body>
+
+</html>

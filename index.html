@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Google Map</title>
+    <style>
+        #map {
+            height: 800px;
+            width: 100%;
+        }
+
+        body {
+            background-image: url(pics/foggy-golf.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <title>My Google Map</title>
+    <main id="user" class="user_info"></main>
+    <section class="new-user">
+        <form id="new-user-form">
+            <input type="text" name="name" placeholder="name">
+            <input type="text" name="password" placeholder="password">
+            <input type="number" name="handicap" placeholder="handicap">
+            <input type="submit" value="Create New User">
+        </form>
+    </section>
+    <section class="login">
+        <form id="login-form">
+            <input type="text" name="name" placeholder="name">
+            <input type="text" name="password" placeholder="password">
+            <input type="submit" value="Login">
+        </form>
+    </section>
+
+    <form id="score_form">
+        <input id="hole_input" type="number" name="hole_number_form" placeholder="hole number" />
+        <input id="stroke_input" type="number" name="strokes_form" placeholder="total strokes" />
+        <input id="chips_input" type="number" name="chips_form" placeholder="total chips" />
+        <input id="putts_input" type="number" name="putts_form" placeholder="total putts" />
+        <input type="submit" value="Submit" />
+    </form>
+    <main id="hole_card">
+        <div id="card_class"></div>
+    </main>
+
+    <section id="score_cards"></section>
+
+    <main id="course_card"></main>
+
+    <!-- <div id="map"></div>
+    <h1 id="hole" style="text-align: center;"></h1>
+    <h2 id="tee-to-green" style="text-align: center;"></h2>
+    <h2 id="mid-point" style="text-align: center;"></h2>
+    <h2 id="green-to-mid-point" style="text-align: center;"></h2>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1a20KRSnWUDSFo_sv_bnadjxxO3O8vvo&callback=initMap"
+        type="text/javascript">
+        </script> --> -->
+
+    <script src="index.js" type="text/javascript"></script>
+</body>
+
+</html>
